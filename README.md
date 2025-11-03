@@ -10,15 +10,15 @@ pastikan anda clone di folder htdoc kalian jika menggunakan XAMPP jika menggunak
 ![Gambar Migrations](./vscode.png) 
    - lalu jalankan ``php ./database.php`` sampai muncul output:  
 **Database berhasil dibuat**
-   - lalu jalankan ``php ./seeders.php`` samapi muncul output:
-**Seeder berhasil dijalankan!** 
-> jika gagal menjalankan salah satu buka file   **/migrations/database.php** dan **/migrations/seeders.php** dan pastikan servername, username, password sesuai dengan database kalian
+   - lalu jalankan ``php ./seeders.php`` samapi muncul output:  
+   **Seeder berhasil dijalankan!** 
+> jika gagal menjalankan salah satu, buka file   **/migrations/database.php** dan **/migrations/seeders.php** lalu pastikan servername, username, password sesuai dengan database kalian
 
 3. Setelah selasai semua janlankan webserver kalian (XAMPP/Laragon) dan buka ``http://localhost:80/MasterDetail/pelanggan.php``
 dan pastikan tampilannya seperti berikut:
 ![Gambar Contoh](./hasil.png)
 
-Setelah itu silakan dipelajari kode kode nya:
-folder core berisi koneksi
-folder include berisi file.php yang berfungsi sebagai tampilan
+Setelah itu silakan dipelajari kode kode nya:  
+folder core berisi koneksi  
+folder include berisi file.php yang berfungsi sebagai tampilan  
 folder proses berisi file.php yang berfungsi sebgai proses di belakang / backend nya
