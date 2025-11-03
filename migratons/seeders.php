@@ -2,7 +2,7 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "1234";
+$password = "";
 
 function generateRandomString($length = 20) {
     // Generate cryptographically secure random bytes
