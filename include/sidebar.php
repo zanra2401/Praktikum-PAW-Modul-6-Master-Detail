@@ -14,8 +14,8 @@
 		<li class=<?= isset($active) && $active == "transaksi" ? "active" : "" ?>>
 			<a href="./transaksi.php"><span class="fa fa-money mr-3"></span> Transaksi</a>
 		</li>
-		<li class=<?= isset($active) && $active == "" ? "active" : "" ?>>
-			<a href="#"><span class="fa fa-car mr-3"></span> supplier</a>
+		<li class=<?= isset($active) && $active == "supplier" ? "active" : "" ?>>
+			<a href="./supplier.php"><span class="fa fa-car mr-3"></span> supplier</a>
 		</li>
 		<li class=<?= isset($active) && $active == "" ? "active" : "" ?>>
 			<a href="#"><span class="fa fa-square mr-3"></span> Barang</a>
